@@ -40,4 +40,11 @@ public class DepartmentService {
         departmentRepository.delete(getDepartment(id));
         return true;
     }
+
+    /*
+     public Department getDepartmentByManagerId(int managerId)
+     {
+        
+     } 
+     */
 }
